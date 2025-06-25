@@ -1,0 +1,92 @@
+html{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+body{
+    padding: 0;
+    top: 0;
+    margin: 0 auto;
+    background-color: #F8F9FF;
+}
+.secao1{
+    background-color: #F8F9FF;
+    max-width: 1200vh;
+    height: 800vh;
+    top: 10%;
+}
+a{
+    text-decoration: none;
+}
+#comece{
+    background-color: #FF7655;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 120px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 102%;
+    position: relative;
+    margin-right: 60px;
+}
+.ajuda{
+    font-weight: bold;
+    color: #384994;
+    font-size: 105%;
+    position: relative;
+    left: 850px;
+}
+#contato{
+    background-color: #CACFE3;
+    color: #384994;
+    width: 120px;
+    border: none;
+    position: relative;
+    left: 100px;
+    font-weight: bold;
+    font-size: 102%;
+    border-radius: 8px;
+    padding: 12px;
+    margin-left: 680px;
+}
+#contato:hover{
+    background-color: #8594D4;
+    color: white;
+}
+#comece:hover{
+    background-color: #E45C3B;
+}
+#descricao{
+    text-align: center;
+    color:#0B1B54;
+    font-size: 21px;
+    font-weight:lighter;
+}
+.saiba{
+    background-color: #FF7655;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 140px;
+    padding: 10px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.saiba:hover{
+    background-color: #E45C3B;
+}
+ul{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+#frasePrincipal{
+    font-size: 120%S;
+    color: #0B1B54;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 7%;
+}
