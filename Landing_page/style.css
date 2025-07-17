@@ -1,20 +1,31 @@
 body{
+    top: 0;
+    padding: 0;
+    margin: 0;
     background-color: #F8F9FF;
     max-width: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
 }
 header{
     background-color: white;
+    width: 100vw;
+    margin-top:-15px;
 }
 ul{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     list-style: none;
 }
+.icone{
+    scale: 90%;
+}
 button{
-    padding: 9px;
+    padding: 10px;
     font-weight: bold;
-    width: 110px;
+    font-size: 16px;
+    width: 120px;
     text-align: center;
     border-radius: 8px;
     border:none;
@@ -25,6 +36,7 @@ a{
 .comece{
     background-color: #FF7655;
     color: white;
+    margin-right: 40px;
 }
 #comece_ja{
     color: white;
@@ -35,10 +47,70 @@ a{
 }
 .contato{
     background-color: #D9DEF2;
+    position: relative;
+    left: 130px;
 }
 .contato:hover{
     background-color: #ACB7DF;
 }
 #a_contato{
     color: #384994;
+}
+.ajuda{
+    font-weight: bold;
+    color: #384994;
+    position: relative;
+    font-size: 16px;
+    left: 240px;
+}
+.ajuda:hover{
+    text-decoration: underline;
+}
+.criacao, .analise{
+    color: #FF7655;
+    font-size: 16px;
+    font-weight: 400;
+}
+.criacao:hover,.analise:hover{
+    text-decoration: underline;
+}
+.criacao{
+    position: relative;
+    right: 40px;
+}
+.analise{
+    position: relative;
+    right: 100px;
+}
+h1{
+    color: #0B1B54;
+    text-align: center;
+    position: relative;
+    left: 55%;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.descricao{
+    text-align: center;
+    color: #0B1B54;
+    position: relative;
+    left: 55%;
+    font-size: 22px;
+}
+.negrito1,.negrito2{
+    color: #407BFF;
+    font-weight: bold;
+}
+.saiba_mais{
+    background-color: #FF7655;
+    scale: 130%;
+    margin-left: 700px;
+    margin-top: 22px;
+}
+#saiba{
+    color: white;
+}
+.onda{
+    scale: 140%;
+    margin-top: 50px;
 }
