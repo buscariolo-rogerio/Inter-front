@@ -1,0 +1,15 @@
+body{
+    background-color: #F8F9FF;
+    max-width: 100vh;
+}
+header{
+    background-color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+a{
+    
+}
