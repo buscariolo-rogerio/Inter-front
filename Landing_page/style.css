@@ -1,6 +1,7 @@
 body{
     background-color: #F8F9FF;
     max-width: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
     background-color: white;
@@ -9,4 +10,35 @@ ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
+}
+button{
+    padding: 9px;
+    font-weight: bold;
+    width: 110px;
+    text-align: center;
+    border-radius: 8px;
+    border:none;
+}
+a{
+    text-decoration: none;
+}
+.comece{
+    background-color: #FF7655;
+    color: white;
+}
+#comece_ja{
+    color: white;
+}
+
+.comece:hover{
+    background-color: #D3422C;
+}
+.contato{
+    background-color: #D9DEF2;
+}
+.contato:hover{
+    background-color: #ACB7DF;
+}
+#a_contato{
+    color: #384994;
 }
