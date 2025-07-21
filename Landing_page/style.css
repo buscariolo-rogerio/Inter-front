@@ -11,6 +11,7 @@ header{
     background-color: white;
     width: 100vw;
     margin-top:-15px;
+    box-shadow: 0 2px 7px rgba(58, 84, 180, 0.1);
 }
 ul{
     display: flex;
@@ -21,7 +22,7 @@ ul{
 .icone{
     scale: 90%;
 }
-button{
+.botao-header{
     padding: 10px;
     font-weight: bold;
     font-size: 16px;
@@ -30,10 +31,23 @@ button{
     border-radius: 8px;
     border:none;
 }
+#saiba_mais{
+    padding: 13px;
+    font-weight: bold;
+    width: 145px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    margin-left: 690px;
+    background-color: #FF7655;
+    margin-top: 22px;
+    
+}
 a{
     text-decoration: none;
 }
-.comece{
+#comece{
     background-color: #FF7655;
     color: white;
     margin-right: 40px;
@@ -42,15 +56,16 @@ a{
     color: white;
 }
 
-.comece:hover{
+#comece:hover,#saiba_mais:hover{
     background-color: #D3422C;
 }
-.contato{
+
+#contato{
     background-color: #D9DEF2;
     position: relative;
     left: 130px;
 }
-.contato:hover{
+#contato:hover{
     background-color: #ACB7DF;
 }
 #a_contato{
@@ -110,7 +125,7 @@ a{
 #saiba{
     color: white;
 }
-.onda{
+#onda{
     scale: 140%;
     margin-top: 50px;
 }
@@ -121,7 +136,7 @@ a{
     height: 2000px;
 }
 
-#oque{
+.titulos-secao2{
     color: white;
     display: flex;
     margin-left: 900px;
@@ -134,9 +149,13 @@ a{
 .explicacao{
     color: white;
     display: flex;
-    margin-left: 900px;
     font-size: 30px;
 }
-.enviando{
+#primeira-explicacao{
+    margin-left: 900px;
+}
+
+#primeira-imagem{
     margin-top: 20px;
+    margin-left: 100px;
 }
