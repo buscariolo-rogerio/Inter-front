@@ -82,7 +82,7 @@ a{
     position: relative;
     right: 100px;
 }
-h1{
+.texto_inicial{
     color: #0B1B54;
     text-align: center;
     position: relative;
@@ -116,4 +116,27 @@ h1{
 }
 .secao2{
     background-color: #384994;
+    margin-top: 15px;
+    width: 1536px;
+    height: 2000px;
+}
+
+#oque{
+    color: white;
+    display: flex;
+    margin-left: 900px;
+    font-size: 50px;
+    position: relative;
+    margin-top: -500px;
+
+    
+}
+.explicacao{
+    color: white;
+    display: flex;
+    margin-left: 900px;
+    font-size: 30px;
+}
+.enviando{
+    margin-top: 20px;
 }
