@@ -187,3 +187,14 @@ hr{
 #segunda-explicacao{
     font-size: 35px;
 }
+#terceira-imagem{
+    scale: 120%;
+    position: relative;
+    bottom: 350px;
+    margin-left: 135px;
+}
+#segundo-subtitulo, #terceira-explicacao{
+    margin-left: 780px;
+    position: relative;
+    bottom: 900px;
+}
