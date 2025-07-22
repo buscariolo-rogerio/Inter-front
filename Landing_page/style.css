@@ -159,3 +159,31 @@ a{
     margin-top: 20px;
     margin-left: 100px;
 }
+hr{
+    margin-top: 350px;
+    border: 2px solid #2B4689;
+}
+#segunda-linha{
+    margin-top: -100px;
+}
+#segundo-texto{
+    margin-top: 175px;
+    margin-left: 555px;
+}
+#segunda-imagem{
+    margin-left: 770px;
+    position: relative;
+    bottom: 400px;
+    scale: 120%;
+}
+.subtitulo{
+    color: white;
+    font-size: 42px;
+    margin-top: 280px;
+}
+#segunda-explicacao,.subtitulo{
+    margin-left: 145px;
+}
+#segunda-explicacao{
+    font-size: 35px;
+}
