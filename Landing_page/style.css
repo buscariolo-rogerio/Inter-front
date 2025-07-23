@@ -133,7 +133,7 @@ a{
     background-color: #384994;
     margin-top: 15px;
     width: 1536px;
-    height: 3500px;
+    height: 3080px;
 }
 
 .titulos-secao2{
@@ -197,4 +197,15 @@ hr{
     margin-left: 780px;
     position: relative;
     bottom: 900px;
+}
+#quarta-explicacao, #terceiro-subtitulo{
+    margin-left: 145px;
+    position: relative;
+    bottom: 820px;
+}
+#quarta-imagem{
+    margin-left: 780px;
+    position: relative;
+    scale: 120%;
+    bottom: 1200px;
 }
