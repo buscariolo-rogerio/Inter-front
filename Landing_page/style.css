@@ -209,3 +209,21 @@ hr{
     scale: 120%;
     bottom: 1200px;
 }
+.secao3{
+    background-color: #F8F9FF;
+    margin-top: -100px;
+    width: 1536px;
+    height: 1000px;
+}
+#beneficios{
+    color: #0B1B54;
+    text-align: center;
+    left: 55%;
+    font-size: 50px;
+    margin-top: 190px;
+}
+#imagem-secao3{
+    margin-top: 100px;
+    margin-left: 190px;
+    scale: 100%;
+}
