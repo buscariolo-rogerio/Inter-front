@@ -4,7 +4,7 @@ body{
     margin: 0;
     background-color: #F8F9FF;
     max-width: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 100vw;
     overflow-x: hidden;
 }
@@ -309,4 +309,89 @@ table{
 }
 #explicacao-secao4{
     color: black;
+}
+.titulos-secao{
+    color: #0B1B54;
+    align-items: center;
+    margin-left: 595px;
+}
+.quadro{
+    background-color: #FFF;
+    box-shadow: 0 6px 15px rgba(199, 206, 255, 0.36);
+    width: 1325px;
+    border-radius: 30px;
+}
+#quadro-colaboradores{
+    height: 675px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#imagem-colaborador{
+    position: relative;
+    left: 100px;
+    scale: 110%;
+}
+.nomes-colaboradores{
+    color: #0B1B54;
+    font-size: 47px;
+    margin-left: 600px;
+    font-weight: 600;
+    position: relative;
+    top: 110px;
+}
+#explicacao-secao4{
+    color: #384994;
+    margin-left: 600px;
+    position: relative;
+    bottom: 375px;
+    font-weight: 400;
+}
+.icones-redes{
+    position: relative;
+    bottom: 400px;
+}
+#github{ 
+    scale: 113%;
+    margin-left: 725px;
+    position: relative;
+    bottom: 458px;  
+}
+#insta{
+    width: 28px;
+    height: 28px;
+    background-color: #FFC3BD;
+    padding: 17px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 600px;
+    margin-top: 85px;
+    
+}
+#insta img{
+    scale: 58%;
+    height: auto;
+}
+.botao-carrossel{
+    padding: 20px;
+    width: 65px;
+    height: 65px;
+    border: 3px solid #FF7655;
+    border-radius: 50%;
+    background-color: #FFF;
+    position: relative;
+    bottom: 420px;
+}
+.botao-carrossel img{
+    scale: 115%;
+    height: auto;
+    margin-left: 3px;
+}
+.botao-carrossel:hover{
+    background-color: #E7E7E8;
+}
+#avancar{
+    margin-left: 750px;
 }
