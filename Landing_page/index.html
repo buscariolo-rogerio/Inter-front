@@ -11,7 +11,7 @@
         <!-- Cabeçalho -->
 
         <header>
-            <ul>
+            <ul class="cabecalho">
                 <li>
                     <img src="imagens/Group 20 (1) 1.png" alt="logo"
                         class="icone">
@@ -192,26 +192,50 @@
         <!--Quinta seção -->
         <section class="secao5">
             <h1 class="titulos-secao" id="quinto-titulo">Alguma dúvida?</h1>
-            <p id="subtitulo-secao5">Nossa equipe está aqui para ajudar! Entre em contato conosco para suporte.</p>
+            <p id="subtitulo-secao5">Nossa equipe está aqui para ajudar! Entre
+                em contato conosco para suporte.</p>
             <div class="quadro" id="quadro-ajuda">
-                <h2 class="nomes-colaboradores" id="meios_contato">MEIOS DE CONTATO</h2>
-                <img src="imagens/TELEFONE.png" alt="cel">
-                <p class="dados_sinara">+55 11 91003-6750</p>
-                <img src="imagens/pessoa.png" alt="cel">
-                <input type="text">
-                <label for="text">Digite seu nome completo</label>
-                <img src="imagens/EMAIL.png" alt="email">
-                <p class="dados_sinara">sinaraoficial.suporte@gmail.com</p>
-                <input type="text">
-                <label for="text">Digite sua dúvida</label>
-                <a href="https://www.instagram.com/sinara.oficial/"><img src="imagens/instagram-svgrepo-com 1 (1).png" alt="insta"></a>
-                <button class="botao-header" id="enviar">
-                        <a href id="comece_ja">Enviar</a>
-                    </button>
-                <footer id="footer">
-                    <p>&copy; 2025 Sinara. Todos os direitos reservados.</p>
-                </footer>
+                <h2 id="meios-contato">MEIOS DE
+                    CONTATO
+                </h2>
+                <img src="imagens/TELEFONE.png" alt="cel" class="icons"
+                    id="telefone-icon">
+                <p class="dados-sinara" id="numero-sinara">+55 11
+                    91003-6750</p>
+                <img src="imagens/EMAIL.png" alt="email" class="icons"
+                    id="email-icon">
+
+                <p class="dados-sinara"
+                    id="email-sinara">sinaraoficial.suporte@gmail.com</p>
+
+                <a href="https://www.instagram.com/sinara.oficial/"
+                    class="dados_sinara" id="insta-icon"><img
+                        src="imagens/instagram-svgrepo-com 1 (1).png"
+                        alt="insta" class="icons" id="insta-icon"></a>
+                <p class="dados-sinara"
+                    id="insta-sinara">@sinara.oficial</p>
+
+                <label for="text" class="label-campos">
+
+                    <input type="text" class="campos" id="nome-campo"
+                        placeholder="Digite o seu nome completo">
+                    <img src="imagens/pessoa.png" alt="pessoa" class="icons"
+                        id="person-icon">
+                    <hr id="linha-campo">
+                </label>
+
+                <label for="text" class="label-campos">
+                    <textarea type="text" class="campos" id="duvida-campo"
+                        placeholder="Digite sua dúvida"></textarea>
+                </label>
+                <button class="botao-header" id="botao-envio">
+                    <a href class="botao-header" id="enviar">Enviar</a>
+                </button>
+
             </div>
         </section>
+        <footer class="footer">
+            <p>&copy; 2025 Sinara. Todos os direitos reservados.</p>
+        </footer>
     </body>
 </html>
