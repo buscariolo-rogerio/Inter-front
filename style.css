@@ -1,0 +1,229 @@
+body{
+    top: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #F8F9FF;
+    max-width: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+}
+header{
+    background-color: white;
+    width: 100vw;
+    margin-top:-15px;
+    box-shadow: 0 2px 7px rgba(58, 84, 180, 0.1);
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.icone{
+    scale: 90%;
+}
+.botao-header{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 120px;
+    text-align: center;
+    border-radius: 8px;
+    border:none;
+}
+#saiba_mais{
+    padding: 13px;
+    font-weight: bold;
+    width: 145px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    margin-left: 690px;
+    background-color: #FF7655;
+    margin-top: 22px;
+    
+}
+a{
+    text-decoration: none;
+}
+#comece{
+    background-color: #FF7655;
+    color: white;
+    margin-right: 40px;
+}
+#comece_ja{
+    color: white;
+}
+
+#comece:hover,#saiba_mais:hover{
+    background-color: #D3422C;
+}
+
+#contato{
+    background-color: #D9DEF2;
+    position: relative;
+    left: 130px;
+}
+#contato:hover{
+    background-color: #ACB7DF;
+}
+#a_contato{
+    color: #384994;
+}
+.ajuda{
+    font-weight: bold;
+    color: #384994;
+    position: relative;
+    font-size: 16px;
+    left: 240px;
+}
+.ajuda:hover{
+    text-decoration: underline;
+}
+.criacao, .analise{
+    color: #FF7655;
+    font-size: 16px;
+    font-weight: 400;
+}
+.criacao:hover,.analise:hover{
+    text-decoration: underline;
+}
+.criacao{
+    position: relative;
+    right: 40px;
+}
+.analise{
+    position: relative;
+    right: 100px;
+}
+.texto_inicial{
+    color: #0B1B54;
+    text-align: center;
+    position: relative;
+    left: 55%;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.descricao{
+    text-align: center;
+    color: #0B1B54;
+    position: relative;
+    left: 55%;
+    font-size: 22px;
+}
+.negrito1,.negrito2{
+    color: #407BFF;
+    font-weight: bold;
+}
+.saiba_mais{
+    background-color: #FF7655;
+    scale: 130%;
+    margin-left: 700px;
+    margin-top: 22px;
+}
+#saiba{
+    color: white;
+}
+#onda{
+    scale: 140%;
+    margin-top: 50px;
+}
+.secao2{
+    background-color: #384994;
+    margin-top: 15px;
+    width: 1536px;
+    height: 3080px;
+}
+
+.titulos-secao2{
+    color: white;
+    display: flex;
+    margin-left: 900px;
+    font-size: 50px;
+    position: relative;
+    margin-top: -500px;
+
+    
+}
+.explicacao{
+    color: white;
+    display: flex;
+    font-size: 30px;
+}
+#primeira-explicacao{
+    margin-left: 900px;
+}
+
+#primeira-imagem{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+hr{
+    margin-top: 350px;
+    border: 2px solid #2B4689;
+}
+#segunda-linha{
+    margin-top: -100px;
+}
+#segundo-texto{
+    margin-top: 175px;
+    margin-left: 555px;
+}
+#segunda-imagem{
+    margin-left: 770px;
+    position: relative;
+    bottom: 400px;
+    scale: 120%;
+}
+.subtitulo{
+    color: white;
+    font-size: 42px;
+    margin-top: 280px;
+}
+#segunda-explicacao,.subtitulo{
+    margin-left: 145px;
+}
+#segunda-explicacao{
+    font-size: 35px;
+}
+#terceira-imagem{
+    scale: 120%;
+    position: relative;
+    bottom: 350px;
+    margin-left: 135px;
+}
+#segundo-subtitulo, #terceira-explicacao{
+    margin-left: 780px;
+    position: relative;
+    bottom: 900px;
+}
+#quarta-explicacao, #terceiro-subtitulo{
+    margin-left: 145px;
+    position: relative;
+    bottom: 820px;
+}
+#quarta-imagem{
+    margin-left: 780px;
+    position: relative;
+    scale: 120%;
+    bottom: 1200px;
+}
+.secao3{
+    background-color: #F8F9FF;
+    margin-top: -100px;
+    width: 1536px;
+    height: 1000px;
+}
+#beneficios{
+    color: #0B1B54;
+    text-align: center;
+    left: 55%;
+    font-size: 50px;
+    margin-top: 190px;
+}
+#imagem-secao3{
+    margin-top: 100px;
+    margin-left: 190px;
+    scale: 100%;
+}
