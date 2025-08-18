@@ -1,0 +1,13 @@
+body{
+    background-color: #0B1B54;
+}
+label{
+    border-style: none;
+    border: 2 px solid #BFD4E3;
+}
+#person-icon{
+    position: relative;
+    scale: 110%;
+    bottom: 98.5%;
+    left: 726px;
+}
